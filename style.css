@@ -73,6 +73,21 @@ body{
 .plan-box-left div h5 {
     font-weight: 900;
     font-size:15px;
+    color:hsl(223, 47%, 23%);
+
+}
+
+.plan-box-left div p {
+    
+    font-size:14px;
+    color:#8a8a8a;
+
+    
+}
+
+.plan-box a {
+    font-weight: 900;
+    color:hsl(223, 47%, 23%);
 }
 
 
