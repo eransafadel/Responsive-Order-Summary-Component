@@ -16,6 +16,7 @@ body{
     background-size: contain;
     background-color: hsl(225, 100%, 94%);
     position: relative;
+    font-size:16px;
 
 }
 
@@ -36,9 +37,45 @@ body{
     text-align: center;
 }
 
-.title {
-   color:hsl(223, 47%, 23%)
+.text-content p.subtitle{
+    color:#8a8a8a;
+    margin-bottom:25px;
 }
+
+.title {
+   color:hsl(223, 47%, 23%);
+   font-weight: 900;
+   font-size:32px;
+   margin-bottom: 20px;
+}
+
+
+.plan-box{
+    background-color: hsl(225, 100%, 98%);
+    border-radius: 12px;
+    display:flex;
+    padding:25px;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.plan-box-left{
+    display:flex;
+    align-items: center;
+    text-align: left;
+}
+
+.plan-box-left div {
+    margin-left:20px;
+}
+
+.plan-box-left div h5 {
+    font-weight: 900;
+    font-size:15px;
+}
+
+
 
 
 
