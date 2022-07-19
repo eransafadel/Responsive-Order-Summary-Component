@@ -15,6 +15,7 @@ The challenge is to build out this order summary card component and get it looki
 
 
 ## Deploying project:
+https://eran-safadel-responsive-order-summery-card.netlify.app/
 
 
 **Have fun building!** 🚀
