@@ -90,6 +90,13 @@ body{
     color:hsl(223, 47%, 23%);
 }
 
+a.proceed-btn{
+    display:block;
+    text-decoration:none;
+    color:white;
+    background-color: hsl(245, 75%,52%);
+}
+
 
 
 
