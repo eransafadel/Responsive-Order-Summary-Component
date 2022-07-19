@@ -90,11 +90,72 @@ body{
     color:hsl(223, 47%, 23%);
 }
 
+.plan-box a:hover{
+    text-decoration:none;
+    color:hsl(245, 75%, 52%);
+    transition: color .3s ease;
+
+}
+
 a.proceed-btn{
     display:block;
     text-decoration:none;
     color:white;
     background-color: hsl(245, 75%,52%);
+    padding: 20px 0;
+    border-radius:12px;
+    margin:30px 0;
+    transition: background-color .3s ease;
+}
+
+a.proceed-btn:hover{
+    background-color:hsl(224,23%,55%);
+}
+
+a.cancel-btn{
+
+    color:hsl(224,23%,55%);
+    text-decoration: none;
+    font-weight: 900;
+
+}
+
+a.cancel-btn:hover{
+    color:hsl(223,47%,23%);
+}
+
+@media only screen and (max-width:425px){
+    body{
+        background-image: url(images/pattern-background-mobile.svg);
+        font-size:14px;
+    }
+    .container{
+        max-width:87%;
+    }
+
+    .title{
+        font-size:23px;
+    }
+
+    div.plan-box{
+        padding:12px;
+
+    }
+
+    .plan-box-left div {
+        margin-left:10px;
+    }
+
+    a.proceed-btn,
+    a.cancel-btn,
+    .plan-box a
+    {
+        font-size:13px;
+    }
+
+    .text-content{
+        padding:9% 7%;
+    }
 }
 
 
